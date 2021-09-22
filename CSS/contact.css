@@ -1,7 +1,12 @@
 body, ul, li, p{
+    background-image: url(../imagens/perfil/quadradoazl.png) ;
+    background-repeat: ;
+    background-size: 11px; 
+    /*reset da pagina */
     margin: 0px;
     padding: 0px;
     list-style: none;
+    /* tirar as bolinhas da lista */
     font-size: 1.2rem;
     font-family: arial;
 
@@ -14,8 +19,9 @@ a{
 
 
 
-.header{
+.header {
     background-color: #004d99;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +43,26 @@ a{
     padding: 10px;
 }
 
+.divform{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+
+form{
+    background-color: white;
+    width: 45%;
+    margin: 0 auto;
+    box-shadow: 1 3px 8px #004d99;
+  
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 7px;
+    display: inline-block;
+
+}
 
 #rodape {
 
@@ -61,6 +87,19 @@ a{
 
 #email {
     margin-right: 50px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    align-content: center;
+}
+
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    align-content: center;
 }
 
 h3 {
