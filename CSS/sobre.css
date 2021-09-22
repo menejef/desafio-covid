@@ -1,5 +1,4 @@
 
-
 body{
     background-image: url(../imagens/perfil/quadradoazul.png) ;
     background-repeat: ;
@@ -79,7 +78,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #191970;
+    background-color: #004d99;
     
    
    
@@ -132,183 +131,12 @@ nav ul li a{
 }
 
 
-
-
-
-
-
-/*-Cabeçalho- */
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../img/dark.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
-
-}
-
-header h1{
-    color: #ffffff;
-    font-size: 100px;
-;
-
-}
-
-header p{
-    margin-bottom: 4em;
-    font-size: 30px;
-
-}
-
-#sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px 10 px 20px 20px;
-    background-color: #191970;
-    color: #ffffff;
-}
-
-#sobre h2{
-    color:#ffffff;
-}
-
-#sobre p {
-    margin-bottom: 2.5em;
-    max-with: 1000px;
-}
-
-#sobre .botao{
-    background-color: #f1f1f1;
-    color: #1c1c1c;
-}
-
-/*-Noticias- */
-
-#home {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 30px;
-}
-
-#home div{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    text-align:center;
-    margin-top: 30px;
-
-
-}
-/*
-#mais{
-    style.display: none;
-}
-*/
-
-
-
-/*-Saiba Mais-*/
-
-#saibamais{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("../img/dark.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
-}
-
-#saibamais h1{
-    color: #ffffff;
-    font-size: 100px;
-
-}
-
-#saibamais p{
-    margin-bottom: 4em;
-    font-size: 50px;
-}
-
-
-/* CSS flexbox */
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 50px;
-}
-.flex > div {
-    flex: 1 1 200px;
-    margin: 20px;
-} 
-
-.link{
-    color: blue;
-}
-
-noticiasDestaques {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 30px;
-}
-
-noticiasDestaques div{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    text-align:center;
-    margin-top: 30px;
-
-
-}
-
-
-
-/*-contato-*/
-
-#contato {
-display: flex;
-flex-direction: column;
-align-items:center;
-text-align-items: center;
-padding: 20px;
-}
-
-#contato h2{
-    color: #000000;
-}
-
-.row{
-    padding:0 20px;
-    display: table;
-    width: 100%;
-}
-
-
-
-
-
 /*-rodapé-*/
 
 footer{
     text-align: center;
     padding: 10px;
-    background-color: #191970;
+    background-color: #004d99;
     color: #ffffff;
 }
 
@@ -320,10 +148,6 @@ footer a{
 
 
 
-
-
-
-/*-----Responsiva------*/
 
 @media screen and (min-width: 768px) {
 
@@ -338,96 +162,8 @@ footer a{
         width: 70%
     }
 
-    /*-----cabeçalho----*/
+    
 
-    header{
-        height: 600px;
-        height: 60vh;
-        justify-content: center;
-
-    }
-
-    /*----sobre-----*/
-
-    #sobre{
-        height: 250px;
-        height: 30 vh;
-        justify-content: center;
-        min-height: 250px;
-
-    }
-
-    /*-----Home-----*/
-    #home{
-        flex-direction: row;
-        flex-wrap: wrap;
-        aligh-items: flex-start;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    #home h2{
-        text-align: center;
-        width: 100%;
-    }
-
-    #home div{
-        flex-grow: 1;
-        flex: basis: 150 px;
-        padding 0 10 px;
-
-    }
-
-   
-   
-   
-   
-    /*-----Saiba Mais -----*/
-
-    #saibamais{
-        flex-direction: row;
-        flex-wrap: wrap;
-
-    }
-
-    #saibamais h2 {
-        width: 100%
-        text-align: center;
-    }
-
-    #saibamais img{
-        widht: 33.3333333%;
-    }
-
-
-
-
-
-
-    /*------contato------*/
-
-    #contato{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 500px;
-        margin: 0 auto;
-
-    }
-
-    #contato h2, #contato p{
-        width: 100%;
-
-    }
-
-
-    #saibamais{
-        wdth: 100%;
-    }
-    /*#mais{
-        display.none;
-    }
-*/
 
 
 }
