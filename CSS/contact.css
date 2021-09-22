@@ -64,6 +64,8 @@ label{
 
 }
 
+
+
 #rodape {
 
     background-color: #004d99;
@@ -115,4 +117,31 @@ input {
 button {
     width: 70px;
     box-shadow: black 2px 2px 5px;
+}
+
+
+
+
+#rodape {
+    background-color: #004d99;
+    display: flex;
+    padding-top: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+
+/*-rodapé-*/
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #004d99;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #00ffff;
+
 }
