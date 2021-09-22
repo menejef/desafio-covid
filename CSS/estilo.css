@@ -8,6 +8,8 @@ body, ul, li, p {
     font-family: arial;
 }
 
+
+
 a {
     text-decoration: none;
     color: white;
@@ -125,8 +127,19 @@ button {
     box-shadow: black 2px 2px 5px;
 }
 
-footer {
+
+
+/*-rodapé-*/
+
+footer{
     text-align: center;
     padding: 10px;
+    background-color: #004d99;
     color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #00ffff;
+
 }
