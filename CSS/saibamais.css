@@ -1,52 +1,98 @@
-body, ul, li, p{  /* Reset do estilo */
+body, ul, li, p {
+    /*reset da pagina */
     margin: 0px;
     padding: 0px;
-    list-style: none;  /* retirada as bolinhas da lista */ 
-    font-size: 20px; 
+    list-style: none;
+    /* tirar as bolinhas da lista */
+    font-size: 1.2rem;
     font-family: arial;
-
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-/* cabecalho */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
 
-.header{
+.header {
     background-color: #004d99;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
 }
 
-
-.menu{
-        display: flex;
-
+.menu {
+    display: flex;
 }
 
-.menu li{  /* distancia dos menus */
+.menu li {
     margin-left: 20px;
 }
 
-.menu li a{ 
+.menu li a {
+    /* area de click do menu */
     display: block;
     padding: 10px;
 }
 
+/* imagem destaque da pagina covid 19 */
+
+.imgDestaque {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+/* CSS flexbox */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.flex>div {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.link {
+    color: blue;
+}
+
+/* CSS GRID 
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 100px;
+    grid-gap: 40px;
+
+}
+
+.grid1 > div:nth-child(n + 7) {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+}
+
+*/
 
 #rodape {
-
     background-color: #004d99;
     display: flex;
     padding-top: 30px;
     margin-top: 30px;
     justify-content: space-between;
-    
 }
 
 .rede {
@@ -56,23 +102,42 @@ a{
     margin-bottom: 5px;
 }
 
-#redesSociais{
+#redesSociais {
     margin-left: 30px;
 }
 
+#email {
+    margin-right: 50px;
+}
 
-
-h3 { /* nome rede sociais */
+h3 {
     color: white;
 }
 
-.cabecalho{
-    margin-left: 50px;
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
 }
 
-.fontes{
-    margin-left: 30px;
+button {
+    width: 70px;
+    box-shadow: black 2px 2px 5px;
 }
-.link {
-    color: blue;
+
+
+
+/*-rodapé-*/
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: ##004d99;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #00ffff;
+
 }
